@@ -1,0 +1,617 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="description" content="『一個愛的機會，認養代替購買』提供民眾、志工、民間團體及各縣市收容所中心一個公開、透明化的網路平台，讓需要被認領養的動物可以透過此平台曝光率提高，並提供動物基本資訊及收容所資訊，能使民眾真正感受到政府尊重動物生命的用心。" />
+		<meta name="viewport" content="width=device-width">
+		<title>全國推廣動物認領養平台</title>
+		<link rel="apple-touch-icon-precomposed" sizes="144x144" href="http://animal-adoption.coa.gov.tw/images/apple-touch-icon-144x144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://animal-adoption.coa.gov.tw/images/apple-touch-icon-114x114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://animal-adoption.coa.gov.tw/images/apple-touch-icon-72x72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="http://animal-adoption.coa.gov.tw/images/apple-touch-icon-57x57-precomposed.png">
+		<link rel="shortcut icon" href="http://animal-adoption.coa.gov.tw/images/favicon.ico">
+		<noscript>
+            <style>
+                .jsdiv {
+                    display: none;
+                }
+            </style>
+        </noscript>
+		<link href='http://animal-adoption.coa.gov.tw/css/jquery/jquery-ui-1.9.2/themes/base/jquery-ui.css' rel='stylesheet' type='text/css' /><link href='http://animal-adoption.coa.gov.tw/css/bootstrap/bootstrap.css' rel='stylesheet' type='text/css' /><link href='http://animal-adoption.coa.gov.tw/css/IV_Library.css' rel='stylesheet' type='text/css' /><link href='http://animal-adoption.coa.gov.tw/css/buttons.css' rel='stylesheet' type='text/css' /><link href='http://animal-adoption.coa.gov.tw/css/layout.css' rel='stylesheet' type='text/css' /><link href='http://animal-adoption.coa.gov.tw/css/style.css' rel='stylesheet' type='text/css' /><script type='text/javascript' src='http://animal-adoption.coa.gov.tw/js/jquery/jquery-ui-1.9.2/jquery-1.8.3.js'></script><script type='text/javascript' src='http://animal-adoption.coa.gov.tw/js/jquery/jquery-ui-1.9.2/ui/jquery-ui.js'></script><script type='text/javascript' src='http://animal-adoption.coa.gov.tw/js/IV_Library.js'></script><script type='text/javascript' src='http://animal-adoption.coa.gov.tw/js/jquery/jquery.lazyload.js'></script><script type='text/javascript' src='http://animal-adoption.coa.gov.tw/js/bootstrap/bootstrap.js'></script><script type='text/javascript' src='http://animal-adoption.coa.gov.tw/js/animal.js'></script><script type='text/javascript' src='http://animal-adoption.coa.gov.tw/js/modernizr-2.6.2-respond-1.1.0.min.js'></script><script type='text/javascript' src='http://animal-adoption.coa.gov.tw/js/shelter.js'></script><script type='text/javascript' src='http://maps.googleapis.com/maps/api/js?key=AIzaSyCTg2z-9AWC47Twbw66gEw9lJCtzjRiZGI&sensor=false'></script>		<script type="text/javascript">
+			function site_url(url){
+				url = url || "";
+				return "http://animal-adoption.coa.gov.tw/index.php" + ( url=='' ? '' : '/' + url);
+			}			
+			$(function(){
+				
+			var cok = document.cookie;
+			var expires = new Date() -1;
+			var msg = cok.match(/MSG_SN\=([^;]*)/);
+			if(msg && msg[1]){
+				alert(decodeURIComponent(msg[1]));
+			}				if (top != self){
+				 	top.location=self.location;
+				}
+			});
+			
+		</script>
+		<noscript>
+			<div class="alert alert-danger">
+				<h2>您的瀏覽器不支援JavaScript，請更換支援 JavaScript 的瀏覽器。 </h2>
+			</div>
+		</noscript>
+		<script>(function() {
+		  var _fbq = window._fbq || (window._fbq = []);
+		  if (!_fbq.loaded) {
+		    var fbds = document.createElement('script');
+		    fbds.async = true;
+		    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+		    var s = document.getElementsByTagName('script')[0];
+		    s.parentNode.insertBefore(fbds, s);
+		    _fbq.loaded = true;
+		  }
+		  _fbq.push(['addPixelId', '440780886053949']);
+		})();
+		window._fbq = window._fbq || [];
+		window._fbq.push(['track', 'PixelInitialized', {}]);
+		</script>
+		<noscript>
+			<img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=440780886053949&amp;ev=NoScript" />
+		</noscript>
+	</head>
+	<body>
+		<!-- Analytics -->
+		 <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+           m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+         })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+       ga('create', 'UA-80002536-1', 'auto');
+       ga('send', 'pageview');
+      </script>
+		
+		<script src="http://animal-adoption.coa.gov.tw/js/jquery.blockUI.js"></script>
+<script>
+  $(function(){	  
+		$('.link_step').click(function() {
+			$.blockUI({ css: {
+				border: 'none',
+				padding: '15px',
+				backgroundColor: '#000',
+				'-webkit-border-radius': '10px',
+				'-moz-border-radius': '10px',
+				opacity: .5,
+				color: '#fff'
+			} });
+			setTimeout($.unblockUI, 10000);
+		});
+  });
+</script>
+<!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '1693705694191327');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=1693705694191327&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Facebook Pixel Code -->
+		<div class="header nav">
+            <div class="container">
+                <a class="brand link_step"  tabindex="1" href="http://animal-adoption.coa.gov.tw/index">動物認領養平台</a>
+                <div class="accesskey">
+                    <a accesskey="U" tabindex="2" href="#topmenu" title="上方主選單連結區" id="topmenu">:::</a> 
+                </div>
+                <ul class="top unstyled inline">
+                    <li><a class="link_step" href="http://animal-adoption.coa.gov.tw/sitemap" tabindex="3">網站導覽</a></li>
+                    <li><a class="link_step" href="http://animal-adoption.coa.gov.tw/link" tabindex="4">相關網站</a></li>
+                    <li><a class="link_step" href="http://animal-adoption.coa.gov.tw/weburl" tabindex="5">聯絡我們</a></li>
+                    <li><a class="link_step" href="http://animal-adoption.coa.gov.tw/index.php/admin" tabindex="6">登入</a></li>
+                </ul>
+                
+                <ul class="main inline">
+                    <li><a class="link_step" href="http://animal-adoption.coa.gov.tw/index" tabindex="7">首頁</a></li>
+                    <li><a class="link_step" href="http://animal-adoption.coa.gov.tw/animal" tabindex="8">動物認領養</a></li>
+                                        <li>
+                        <a href="http://animal.coa.gov.tw/html/index_07.aspx" tabindex="10" target="_blank" title="合法寵物業者(另開新視窗)">合法寵物業者(另開新視窗)</a>
+                    </li>
+                    <li><a class="link_step" href="http://animal-adoption.coa.gov.tw/shelter" tabindex="11">公立收容所</a></li>
+                    <!-- <li><a href="http://animal-adoption.coa.gov.tw/contact">協尋聯絡單位</a></li> -->
+                    <li><a class="link_step" href="http://animal-adoption.coa.gov.tw/contact" tabindex="12">協尋聯絡單位</a></li>
+                </ul>
+                
+            </div>
+		</div>			
+		<div class="container">
+			
+			<script src="http://animal-adoption.coa.gov.tw/js/jquery.blockUI.js"></script>
+<script>
+  $(function(){	  
+		$('.link_step').click(function() {
+			$.blockUI({ css: {
+				border: 'none',
+				padding: '15px',
+				backgroundColor: '#000',
+				'-webkit-border-radius': '10px',
+				'-moz-border-radius': '10px',
+				opacity: .5,
+				color: '#fff'
+			} });
+			setTimeout($.unblockUI, 10000);
+		});
+  });
+</script>	
+<div class="ad row-fluid">
+    <img src="http://animal-adoption.coa.gov.tw/images/icon/preload_img.jpg" data-original="http://animal-adoption.coa.gov.tw/images/pic/banner.jpg" class="lazy" alt="一個愛的機會，請用認養代替購買" />
+</div>
+<div class="wrap row-fluid">
+    <aside class="span2 pull-left">
+        <div class="accesskey">
+            <a accesskey="L" href="#sidebar" title="左邊選單連結區" id="sidebar">:::</a>
+        </div>
+        <div class="adopt_steps">
+            <span class="adopt_title">認領養3步驟</span>
+            <ul class="unstyled">
+                <li><a class="steps a link_step" href="http://animal-adoption.coa.gov.tw/estimate"><img src="http://animal-adoption.coa.gov.tw/images/layout/adopt_step1.png" alt="自我評估-了解自己是否已作好準備" /></a></li>
+                <li><a class="steps b"><img src="http://animal-adoption.coa.gov.tw/images/layout/adopt_step2.png" alt="尋找幸福-尋找相伴一生的寵物夥伴" /></a>
+                    <form action="http://animal-adoption.coa.gov.tw/index.php/animal" method="get" name="animal_search_form" class="search_area" accept-charset="utf-8">                    <div class="area">
+                     <label>區域</label>
+                     <select name="s_area" class="a_area_ky span8"><option value="ALL">全部</option><optgroup label='北北基宜'><option value='北北基宜' >北北基宜全部</option><option value='2' >臺北市</option><option value='3' >新北市</option><option value='4' >基隆市</option><option value='5' >宜蘭縣</option></optgroup><optgroup label='桃竹苗'><option value='桃竹苗' >桃竹苗全部</option><option value='6' >桃園市</option><option value='7' >新竹縣</option><option value='8' >新竹市</option><option value='9' >苗栗縣</option></optgroup><optgroup label='中彰投'><option value='中彰投' >中彰投全部</option><option value='10' >臺中市</option><option value='11' >彰化縣</option><option value='12' >南投縣</option></optgroup><optgroup label='雲嘉南'><option value='雲嘉南' >雲嘉南全部</option><option value='13' >雲林縣</option><option value='14' >嘉義縣</option><option value='15' >嘉義市</option><option value='16' >臺南市</option></optgroup><optgroup label='高屏'><option value='高屏' >高屏全部</option><option value='17' >高雄市</option><option value='18' >屏東縣</option></optgroup><optgroup label='花東'><option value='花東' >花東全部</option><option value='19' >花蓮縣</option><option value='20' >臺東縣</option></optgroup><optgroup label='澎金馬'><option value='澎金馬' >澎金馬全部</option><option value='21' >澎湖縣</option><option value='22' >金門縣</option><option value='23' >連江縣</option></optgroup></select>
+                 </div>
+                 <div class="class">
+                    <label>分類</label>
+                    <select name="s_kind" class="a_kind span8">
+                        <option value="ALL">全部</option><option value='狗' >狗</option><option value='貓' >貓</option><option value='其他' >其他</option></select>
+                    </div>
+                    <div class="class">
+                        <label>體型</label>
+                        <select name="s_bodytype" class="a_bodytype_ky_detail span8">
+                            <option value="ALL" >全部</option>
+                            <option value='MINI' >迷你型</option><option value='SMALL' >小型</option><option value='MEDIUM' >中型</option><option value='BIG' >大型</option>                        </select>
+                    </div>
+                    <div class="class">
+                        <label>年紀</label>
+                        <select name="s_age" class="a_age_detail span8">
+                        	<option value="ALL">全部</option>
+			                <option value='CHILD' >幼年</option><option value='ADULT' >成年</option>                        </select>
+                        <input type="hidden" class="hidden_age" value="" />
+                    </div>
+                    <div class="class">
+                        <label>毛色</label>
+                        <select name="s_color" class="span8">
+                            <option value="ALL" >全部</option>
+                            <option value='白色' >白色</option><option value='黑色' >黑色</option><option value='棕色' >棕色</option><option value='黃色' >黃色</option><option value='虎斑' >虎斑</option><option value='花色' >花色</option><option value='其他' >其他</option>                        </select>
+                    </div>
+                    <div class="class">
+                        <label>性別</label>
+                        <select name="s_sex" class="span8">
+                            <option value="ALL" >全部</option>
+                            <option value='M' >公</option><option value='F' >母</option><option value='N' >未知</option>                        </select>
+                    </div>
+                    <input type="submit" class="btn" value="開始尋找" alt="依照搜尋條件尋找符合之待領養動物" />
+                    </form>                </li>
+                <li><a class="steps c  link_step" href="http://animal-adoption.coa.gov.tw/shelter"><img src="http://animal-adoption.coa.gov.tw/images/layout/adopt_step3.png" alt="帶牠回家-付諸行動給牠一個家" /></a></li>
+            </ul>
+        </div>
+        <div class="other_link">
+
+        </div>
+    </aside>
+
+    <article class="shelters span10">
+        <div class="accesskey">
+            <a accesskey="C" href="#article" title="主要內容區" id="article">:::</a>
+        </div>
+        <ul class="breadcrumb">
+            <li><a href="http://animal-adoption.coa.gov.tw/index.php" class="link_step">首頁</a> <span class="divider">/</span></li>
+            <li class="active">公立收容所</li>
+        </ul>
+        <div class="wrap">
+            <h1>公立收容所</h1>
+            <div class="map jsdiv">
+                <img src="http://animal-adoption.coa.gov.tw/images/pic/tw_map.png" alt="臺灣地圖-各縣市分佈" />
+                                <div class="z1">
+                   <a href="#" class="label label-warning citylabel">臺北市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('臺北市','臺北市動物之家','49','http://www.tcapo.taipei.gov.tw/np.asp?ctNode=69749&mp=105033,,臺北市內湖區潭美街852號,,02-87913254;02-87913255,,,,開放參訪日期:週二~週日^開放參訪時段:上午10:00~12:30，下午1:30~4:00。                                                                                                       ','f6eb551a55be8996a5589bdacf7339b4.jpg')">
+                         臺北市動物之家</a></li>                     </ul>                 </div>
+                                 <div class="z2">
+                   <a href="#" class="label label-warning citylabel">基隆市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('基隆市','基隆市寵物銀行','48','http://www.klaphio.gov.tw/receiving_notice.php,,20653基隆市七堵區瑪西里大華三路45-12號(欣欣安樂園旁),,02-24560148,,,,基隆市政府動物保護防疫所-^^【所本部】^20147基隆市信義區信二路241號1樓^電話:02-24280677 傳真:02-24280687^^【寵物銀行】^20653基隆市七堵區大華三路45-12號^電話:02-24560148^開放參訪時段:週二~週六：上午9：00~12：00下午13：00~16：30      ^開放認養時段:週二~週五：下午14：00~16：30，週六：上午9：00~12：00^中午休息時段:中午12:00~下午13:00^(國定例假日休息)   ^^【動保小隊】^20045基隆市仁愛區南榮路393巷22號1樓^電話:02-24288905^^^^^^                                                                                                                                                                               ','c4aab46ae54c9e4d8137f3d4b6454200.jpg')">
+                         基隆市寵物銀行</a></li>                     </ul>                 </div>
+                                 <div class="z3">
+                   <a href="#" class="label label-warning citylabel">新北市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('新北市','新北市新莊區公立動物之家','52','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市泰山區楓江路191號,,02-22977814,,,,開放參訪日期:週一~週五^開放參訪時段:上午10:00-12:00，下午14:00-16:00                                          ','4299ea6203cfa17e2ab7b37d49dff151.JPG')">
+                         新北市新莊區公立動物之家</a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市新店區公立動物之家','51','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市新店區安泰路235號,,02-22159462,,,,開放參訪日期:週一~週五^開放參訪時段:上午10:00-12:00，下午14:00-16:00                                                        ','e7d83b7f108ea2f2426d40b9803a8e5e.JPG')">
+                         新北市新店區公立動物之家</a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市板橋區公立動物之家','50','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市板橋區華東路1-9號,,02-89662158,,,,開放參訪日期: 週二~週日^開放參訪時段:上午10:00-12:00，下午14:00-16:00                                                                                    ','555248476c818f79564df3c4ca6d63e1.JPG')">
+                         新北市板橋區公立動物之家</a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市中和區公立動物之家 ','53','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市中和區興南路三段100號,,02-86685547,,,,開放參訪日期:週二~週日^開放參訪時段:上午10:00-12:00，下午14:00-16:00                                                        ','8ea53ab2cf75d545d55148260203e283.JPG')">
+                         新北市中和區公立動物之家 </a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市淡水區公立動物之家','55','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市淡水區下圭柔山91-3號,,02-26267558,,,,開放參訪日期:週一~週五^開放參訪時段:上午10:00-12:00，下午14:00-16:00                                                                      ','1fa1e405b1d17f7547433c59843bb973.jpg')">
+                         新北市淡水區公立動物之家</a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市瑞芳區公立動物之家','56','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市瑞芳區傑魚里八分寮路,,02-24063481,,,,開放參訪日期:週一~週五^開放參訪時段:上午10:00-12:00，下午14:00-16:00                                                        ','367d77ceedffa3945ba673a0ed70c510.jpg')">
+                         新北市瑞芳區公立動物之家</a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市五股區公立動物之家','58','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市五股區外寮路9-9號,,02-82925265,,,,開放參訪日期:週二~週日^開放參訪時段:上午10:00-12:00，下午14:00-16:00                                          ','52881991f458d417d05630313cad171e.JPG')">
+                         新北市五股區公立動物之家</a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市八里區公立動物之家','59','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市八里區長坑村6鄰長道路36號,,02-26194428,,,,開放參訪日期:週一~週五^開放參訪時段:上午10:00-12:00，下午14:00-16:00                                                        ','0193fd5870c3be2447d747c4c27f54a6.JPG')">
+                         新北市八里區公立動物之家</a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市三芝區公立動物之家','60','http://www.ahiqo.ntpc.gov.tw/adopt_list.php,,新北市三芝區中山路一段32號,,02-26365436,,,,新北市三芝區圓山里青山路龍嚴建設旁^開放參訪日期:週一~週五^開放參訪時段:上午10:00-12:00，下午14:00-16:00 ^距離貝殼廟約5分鐘車程^距離三芝市區約15分鐘車程                                                                                   ','e898c4464e9a9efb0b20153f062a7e9c.JPG')">
+                         新北市三芝區公立動物之家</a></li>                     <li><a href="#" onclick="CallDetailBlock('新北市','新北市政府動物保護防疫處','92','http://www.ahiqo.ntpc.gov.tw/,,新北市板橋區四川路1段157巷2號,,02-29596353,,tpc58801@ms1.gsn.gov.tw,,開放參訪日期:^開放參訪時段:              ','')">
+                         新北市政府動物保護防疫處</a></li>                     </ul>                 </div>
+                                 <div class="z4">
+                   <a href="#" class="label label-warning citylabel">連江縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('連江縣','連江縣流浪犬收容中心','81',',,馬祖南竿鄉復興村(近機場) ,,0836-25003,,,,開放參訪日期:週一~週五^開放參訪時段:上午8:00~12:00，下午1:30~5:30                           ','7ed19a1a8672d760bf3dba374e3e442e.jpg')">
+                         連江縣流浪犬收容中心</a></li>                     </ul>                 </div>
+                                 <div class="z5">
+                   <a href="#" class="label label-warning citylabel">宜蘭縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('宜蘭縣','宜蘭縣流浪動物中途之家','78','http://animal.e-land.gov.tw/releaseRedirect.do?unitID=125&pageID=6341,,宜蘭縣五結鄉成興村利寶路60號,,039-602350,,animal@mail.e-land.gov.tw,,開放參訪日期(夏令):週一~週五^開放參訪時段(夏令):上午8:00~下午5:30^^開放參訪日期(冬令):每年11月1日至隔年2月底，週一~週五^開放參訪時段(冬令): 上午8:00~下午5:00^                                                                                                     ^一、由國道5號羅東交流道下→直行到底後左轉（往親水公園）→過利澤簡大橋直走到^        底後右轉→過噶瑪蘭大飯店，第一個紅綠燈左轉→宜蘭縣動植物防疫所。^二、走北部濱海公路→到頭城鎮，不要開上頭城大橋，直接左轉→走台2線 →經壯圍鄉、^        五結鄉→過噶瑪蘭大飯店，第一個紅綠燈左轉→宜蘭縣動 植物防疫所。^三、走北宜公路→到礁溪鄉右轉→走台9線→過宜蘭大橋，進入宜蘭市→往羅東方向→^        經宜蘭運動公園與宜蘭縣政府→當過蘭陽大橋後，第二個紅綠燈左轉→走學進路^        到底後左轉（往親水公園）→過利澤簡大橋直走到底後右轉→過噶瑪蘭大飯店，^        第一個紅綠燈左轉→宜蘭縣動植物防疫所。                                          ','eda3706f941622b6a020cbf321bd7854.jpg')">
+                         宜蘭縣流浪動物中途之家</a></li>                     </ul>                 </div>
+                                 <div class="z6">
+                   <a href="#" class="label label-warning citylabel">新竹市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('新竹市','新竹市動物收容所','62',',,新竹市南寮里海濱路250號,,03-5368329,,,,開放參訪日期:^週一~週五^開放參訪時段:上午09:30~中午11:30，下午2:00~下午4:00          ^^週六^開放參訪時段:上午10：00~12：00。 ^^週日及國定假日不開放','418249bdd3e3de532038d38987a530fb.JPG')">
+                         新竹市動物收容所</a></li>                     </ul>                 </div>
+                                 <div class="z7">
+                   <a href="#" class="label label-warning citylabel">新竹縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('新竹縣','新竹縣動物收容所','63','http://animalprotection.hchg.gov.tw/sca/C/Animal.aspx,,新竹縣竹北市縣政五街192號,,03-5519548轉202,,,,請點選本所「網址」^有認養方式說明及正確詳細動物更詳細資訊        ^^開放時間：^週二至週五 8:00~16:00^週六(不含連假及節日)10:00~15:00                                                                                                                                                                 ','741ef96c0dfe2742e0b87e7d3fe9d789.jpg')">
+                         新竹縣動物收容所</a></li>                     </ul>                 </div>
+                                 <div class="z8">
+                   <a href="#" class="label label-warning citylabel">桃園市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('桃園市','桃園市動物保護教育園區','61','http://www.tycg.gov.tw/animal/,,桃園市新屋區永興里大牛欄 117 號,,03-4861760 傳真: (03)4861765,,,,開放參訪日期:週二、四、六，另國定假日休園。^開放參訪時段:上午10:00~12:00，下午1:30~3:30^#領養注意事項:^1. 需攜帶年滿20歲的身分證件^2. 植入晶片,進行寵物登記^3. 收取規費(領養1隻動物最多收取510元)^4. 幼年動物可直接辦理認領養,成年動物需待絕育後通知帶回^**如何前往園區：^1.由台66線東西向快速道路，在台15線濱海公路往南，到了51.7公里處，看到金發便利商店就右轉，遇到堤防再左轉， 約1公里就可到達 。^2.由台66線東西向快速道路走到底，左轉台61線西濱公路往南，到了51.4公里處右轉，遇到堤防再左轉， 約1公里就可到達 。^3.由縣道144號往永安漁港方向，右轉台61線濱公路往北，，到了51.4公里處左轉，遇到堤防再左轉， 約1公里就可到達 。                                                                                                ','7fd5236bdf7ae53d8b8ec188475a8636.jpg')">
+                         桃園市動物保護教育園區</a></li>                     </ul>                 </div>
+                                 <div class="z9">
+                   <a href="#" class="label label-warning citylabel">苗栗縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('苗栗縣','苗栗動物收容所','65','http://www.miaoli.gov.tw/animal_health/normalIndex.php,,苗栗縣苗栗市新川里泉水窩1號,,037-368997,,,,動物認領養開放時間：週一至週五下午14:00~15:00                                                                                                  ','40198fac88b26b7ad485a9edd02afa33.jpg')">
+                         苗栗動物收容所</a></li>                     <li><a href="#" onclick="CallDetailBlock('苗栗縣','苗栗寵物認養平台','96','http://www.miaoli-animal.com/,,苗栗縣苗栗市國福路10號,,037-320049,,,,開放參訪日期:^開放參訪時段:週一至週五AM08:00-PM05:00                                         ','')">
+                         苗栗寵物認養平台</a></li>                     </ul>                 </div>
+                                 <div class="z10">
+                   <a href="#" class="label label-warning citylabel">臺中市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('臺中市','臺中市動物之家南屯園區','67','http://www.animal.taichung.gov.tw/lp.asp?ctNode=3724&CtUnit=1687&BaseDSD=57&mp=119020,,臺中市南屯區中台路601號,,04-23850976,,,,開放參訪日期:週一、二、四、六^開放認養日期:週一~週六^^開放參訪時段:上午10:00~12:00，下午1:30~4:00^開放認養時段:上午10:00~12:00，下午1:30~4:00                                          ','8f0ba630db7f87cda2075e380d118b38.jpg')">
+                         臺中市動物之家南屯園區</a></li>                     <li><a href="#" onclick="CallDetailBlock('臺中市','臺中市動物之家后里園區','68','http://www.animal.taichung.gov.tw/lp.asp?ctNode=3724&CtUnit=1687&BaseDSD=57&mp=119020,,臺中市后里區堤防路370號,,04-25588024,,,,開放認養日期:週一~週六^開放認養時段:上午10:00~12:00，下午1:30~4:00                                                                      ','9cac8a221713f4bee7c011fe113e6506.jpg')">
+                         臺中市動物之家后里園區</a></li>                     </ul>                 </div>
+                                 <div class="z11">
+                   <a href="#" class="label label-warning citylabel">彰化縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('彰化縣','彰化縣流浪狗中途之家','69','http://www.chcgadcc.gov.tw/,,彰化縣員林鎮大峰里阿寶坑426號          請於彰化縣芬園鄉大彰路一段875巷進入,,04-8590638,,,,開放參訪日期:週一~週日(週五不開放)^開放認養時間:週一、三、六、日^開放參訪時段:上午10:00~12:00，下午2:00~4:00^入口請衛星定位搜尋:彰化縣芬園鄉大彰路一段875巷直走到底                                                                                                                                                                                    ','75598eba7ffef31cb6a4121a92df2801.jpg')">
+                         彰化縣流浪狗中途之家</a></li>                     </ul>                 </div>
+                                 <div class="z12">
+                   <a href="#" class="label label-warning citylabel">南投縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('南投縣','南投縣公立動物收容所','70','http://adcc.nantou.gov.tw/,,南投縣南投市嶺興路36之1號,,049-2225440,,,,開放參訪日期:週一~週五，另例假日需事先聯絡再安排人員辦理。^^開放參訪時段:上午9:00~11:30，下午1:30~4:00                                                      ','7f50b6bc61d2c338d0afe1e72ad63cf6.jpg')">
+                         南投縣公立動物收容所</a></li>                     </ul>                 </div>
+                                 <div class="z13">
+                   <a href="#" class="label label-warning citylabel">嘉義市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('嘉義市','嘉義市流浪動物收容所','71','http://www.dog.dias.com.tw/,,嘉義市彌陀路101號旁(環保局停車場內),,05-2168661,,,,開放參訪日期:週一~週五，另例假日不開放。^^開放參訪時段:上午9:00~11:30，下午2:00~5:00                                                        ','6c4151745a6d77d1479c00b501736245.jpg')">
+                         嘉義市流浪動物收容所</a></li>                     </ul>                 </div>
+                                 <div class="z14">
+                   <a href="#" class="label label-warning citylabel">嘉義縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('嘉義縣','嘉義縣流浪犬中途之家','72','http://www.ldcc.gov.tw/,,嘉義縣民雄鄉松山村後山仔37~1號,,05-3620025,,,,開放參訪日期:週一~週五，另週六、日場內消毒不開放。^^開放參訪時段:周一至周五上午9:00~12:00下午1:00~4:00                                             ','64b56e8bfb05215298817667135e1303.jpg')">
+                         嘉義縣流浪犬中途之家</a></li>                     </ul>                 </div>
+                                 <div class="z15">
+                   <a href="#" class="label label-warning citylabel">雲林縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('雲林縣','雲林縣流浪動物收容所','89','http://www4.yunlin.gov.tw/livestock/home.jsp?mserno=200806030001 &serno=200806030001&contlink=ap/fos,,雲林縣斗六市雲林路二段517號,,公告動物均安置於代收容動物醫院,請洽該動物醫院洽詢辦理相關事,,,,若要前往參訪或認領養寵物，可聯絡各動物醫院^詳細聯絡資訊與開放時間請參考：^雲林縣動植物防疫所網站>>流浪狗認領養>>雲林縣政府流浪犬認領養流程表>>相關附件：本縣委託代收容流浪犬動物醫院開放認養時間表.doc                                          ','')">
+                         雲林縣流浪動物收容所</a></li>                     </ul>                 </div>
+                                 <div class="z16">
+                   <a href="#" class="label label-warning citylabel">臺南市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('臺南市','臺南市動物之家灣裡站','73','http://www.tnadc.gov.tw/collecting/index.html,,臺南市南區省躬里14鄰萬年路580巷92號,,06-2964439,,,,開放參訪日期:週二~週六，另星期一、日及國定例假日不開放。^開放參訪時段:上午9:00~12:00，下午1:30~4:30                                          ','22997d0c2406aa14b1f1639f1e530f74.jpg')">
+                         臺南市動物之家灣裡站</a></li>                     <li><a href="#" onclick="CallDetailBlock('臺南市','臺南市動物之家善化站','74','http://www.tnadc.gov.tw/collecting/index.html,,臺南市善化區東昌里東勢寮1之19號,,06-5832399,,,,開放參訪日期:週二~週六，另星期一、日及國定例假日不開放。^開放參訪時段:上午9:00~12:00，下午1:30~4:30                                          ','7efd0017e2c96c0f4f0a991a2345f9ef.jpg')">
+                         臺南市動物之家善化站</a></li>                     </ul>                 </div>
+                                 <div class="z17">
+                   <a href="#" class="label label-warning citylabel">高雄市</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('高雄市','高雄市動物保護教育園區','75','http://asms.wsn.com.tw/ks/webClientMain.aspx?Page=0,,高雄市鼓山區萬壽路350號,,07-5519059,,,,開放參訪日期:週一~週六，另周三上午及國定假日不開放。^開放參訪時段:上午9:30~11:30，下午2:00~4:30                                                                                    ','66e9a7580114486b4c92081fbdde8923.jpg')">
+                         高雄市動物保護教育園區</a></li>                     <li><a href="#" onclick="CallDetailBlock('高雄市','高雄市燕巢動物收容所','76','http://asms.wsn.com.tw/ks/webClientMain.aspx?Page=0,,高雄市燕巢區師大路100號,,07-6051002,,,,開放參訪日期:週一~週六，另週三及國定假日不開放。^開放參訪時段:上午9:00~11:30，下午1:30~4:00                                                                                ','91653648dd260dcb2e2c6bd2f8982440.jpg')">
+                         高雄市燕巢動物收容所</a></li>                     </ul>                 </div>
+                                 <div class="z18">
+                   <a href="#" class="label label-warning citylabel">澎湖縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('澎湖縣','澎湖縣流浪動物收容中心','83','http://www.phldcc.gov.tw/ch/home.jsp,,澎湖縣馬公市烏崁里260號,,06-9213559,,,,開放參訪日期:週一~週五^^開放參訪時段:上午9:00~11:30，下午2:00~4:30                                          ','e32c8d18b9c37f82f11304ef2bea91d5.JPG')">
+                         澎湖縣流浪動物收容中心</a></li>                     </ul>                 </div>
+                                 <div class="z19">
+                   <a href="#" class="label label-warning citylabel">金門縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('金門縣','金門縣動物收容中心','82','http://www.kinmen.gov.tw/,,金門縣金湖鎮裕民農莊20號,,082-336625,,,,開放參訪日期:週一~週五^^開放參訪時段:上午8:00~12:00，下午1:30~5:30                                          ','fae1a80623012e73a7b2f961b04a7c7c.jpg')">
+                         金門縣動物收容中心</a></li>                     </ul>                 </div>
+                                 <div class="z20">
+                   <a href="#" class="label label-warning citylabel">屏東縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('屏東縣','屏東縣流浪動物收容所','77',',,屏東縣內埔鄉學府路1號(屏東科技大學內),,08-7740588#6332；08-7701094,,,,認養時段:週一至週五 早上9:00至11:00；下午2:00至6:00^                                                                                                           ','7ba65b3a7060f614a893d02de0d1d6c2.jpg')">
+                         屏東縣流浪動物收容所</a></li>                     </ul>                 </div>
+                                 <div class="z21">
+                   <a href="#" class="label label-warning citylabel">臺東縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('臺東縣','臺東縣動物收容中心','80','https://sites.google.com/a/jbps.ttct.edu.tw/tai-dong-xian-dong-wu-fang-yi-suo/,,臺東縣臺東市中華路4段861巷350號,,089-362011,,houk6616@gmail.com,,開放參訪及領養日期 : 週一 ~ 週日^開放參訪及領養時段 : 上午 9:30 ~ 11:30，^                         下午 2:30 ~ 4:30         ^臺東縣動物防疫所臉書粉絲專頁網址  https://www.facebook.com/pages/臺東縣動物防疫所/122418011250113                                                                                                                              ','f5130885e89be9e75dd34e6f958ba315.jpg')">
+                         臺東縣動物收容中心</a></li>                     </ul>                 </div>
+                                 <div class="z22">
+                   <a href="#" class="label label-warning citylabel">花蓮縣</a>
+                                        <ul class="dist">
+                                          <li><a href="#" onclick="CallDetailBlock('花蓮縣','花蓮縣流浪犬中途之家','79','http://acdc.hl.gov.tw/web/07pets/01adpot_1.htm,,花蓮縣吉安鄉南濱路1段599號,,038-421452,,,,開放參訪日期:週一~週五^開放參訪時段:上午10:00~12:00，下午2:00~4:00    ^開放參訪日期::週六^開放參訪時段:上午10:00~下午4:00^遇國定連續假日停止開放乙次^                                                                                ','18e083fa7c9e021e7f280529c1e7eb10.jpg')">
+                         花蓮縣流浪犬中途之家</a></li>                     </ul>                 </div>
+                 
+             </div>
+             <noscript>
+                
+                                <div class="z1">
+                    <a href="#"><span class="label label-warning">臺北市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=49">臺北市動物之家</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z2">
+                    <a href="#"><span class="label label-warning">基隆市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=48">基隆市寵物銀行</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z3">
+                    <a href="#"><span class="label label-warning">新北市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=52">新北市新莊區公立動物之家</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=51">新北市新店區公立動物之家</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=50">新北市板橋區公立動物之家</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=53">新北市中和區公立動物之家 </a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=55">新北市淡水區公立動物之家</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=56">新北市瑞芳區公立動物之家</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=58">新北市五股區公立動物之家</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=59">新北市八里區公立動物之家</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=60">新北市三芝區公立動物之家</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=92">新北市政府動物保護防疫處</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z4">
+                    <a href="#"><span class="label label-warning">連江縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=81">連江縣流浪犬收容中心</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z5">
+                    <a href="#"><span class="label label-warning">宜蘭縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=78">宜蘭縣流浪動物中途之家</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z6">
+                    <a href="#"><span class="label label-warning">新竹市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=62">新竹市動物收容所</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z7">
+                    <a href="#"><span class="label label-warning">新竹縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=63">新竹縣動物收容所</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z8">
+                    <a href="#"><span class="label label-warning">桃園市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=61">桃園市動物保護教育園區</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z9">
+                    <a href="#"><span class="label label-warning">苗栗縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=65">苗栗動物收容所</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=96">苗栗寵物認養平台</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z10">
+                    <a href="#"><span class="label label-warning">臺中市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=67">臺中市動物之家南屯園區</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=68">臺中市動物之家后里園區</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z11">
+                    <a href="#"><span class="label label-warning">彰化縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=69">彰化縣流浪狗中途之家</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z12">
+                    <a href="#"><span class="label label-warning">南投縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=70">南投縣公立動物收容所</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z13">
+                    <a href="#"><span class="label label-warning">嘉義市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=71">嘉義市流浪動物收容所</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z14">
+                    <a href="#"><span class="label label-warning">嘉義縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=72">嘉義縣流浪犬中途之家</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z15">
+                    <a href="#"><span class="label label-warning">雲林縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=89">雲林縣流浪動物收容所</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z16">
+                    <a href="#"><span class="label label-warning">臺南市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=73">臺南市動物之家灣裡站</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=74">臺南市動物之家善化站</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z17">
+                    <a href="#"><span class="label label-warning">高雄市</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=75">高雄市動物保護教育園區</a>
+                        </li>
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=76">高雄市燕巢動物收容所</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z18">
+                    <a href="#"><span class="label label-warning">澎湖縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=83">澎湖縣流浪動物收容中心</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z19">
+                    <a href="#"><span class="label label-warning">金門縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=82">金門縣動物收容中心</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z20">
+                    <a href="#"><span class="label label-warning">屏東縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=77">屏東縣流浪動物收容所</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z21">
+                    <a href="#"><span class="label label-warning">臺東縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=80">臺東縣動物收容中心</a>
+                        </li>
+                                            </ul>
+                            </div>
+                        <div class="z22">
+                    <a href="#"><span class="label label-warning">花蓮縣</span></a>
+                                            <ul class="">
+                                                <li>
+                        <a href="http://animal-adoption.coa.gov.tw/index.php/shelter/shelter_info?id=79">花蓮縣流浪犬中途之家</a>
+                        </li>
+                                            </ul>
+                            </div>
+            </noscript>
+</div>
+</article>
+</div>
+			
+			﻿<footer class="row-fluid">
+                <div class="info span4">
+                	<span>&nbsp;</span>
+                	<p>系統維護廠商：皚霖資訊有限公司</p>
+                	<p>電話：(04)23108997</p>
+                    <p>
+                        <a href="http://www.handicap-free.nat.gov.tw/Applications/Detail?category=20141208110214" title="無障礙網站" target="_blank">
+                            <img src="http://animal-adoption.coa.gov.tw/images/aplus.jpg" border="0" width="88" height="31" alt="通過A+優先等級無障礙網頁檢測(另開視窗)" />
+                        </a>
+                    </p>
+                </div>
+                <div class="copyright span6">
+<p>總瀏覽人次：<span>6805054</span> (自民國102年1月1日起)<br/>最近更新日期：<span>2016/09/30</span></p>
+                    <p>&copy; 2013 COA All Rights Reserved‧ <script>
+if(typeof($.browser.msie) != "undefined"){
+    if(parseInt($.browser.version) < 8) document.write("最佳瀏覽: IE8.0 以上");
+}
+</script><noscript>最佳瀏覽: IE8.0 以上</noscript></p>
+                </div>
+                <div class="qrcode span2">
+                    <img src="http://animal-adoption.coa.gov.tw/images/icon/preload_img.jpg" data-original="http://animal-adoption.coa.gov.tw/images/layout/qrcode.gif" class="lazy jsdiv" style="width: 100px;" alt="全國推廣動物認領養平台之QRcode" />
+                </div>
+</div>
+			
+		</div>
+		
+		<!-- Google Code for &#39318;&#38913; -->
+		<!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		var google_conversion_id = 969332545;
+		var google_conversion_label = "oWCPCNeFwQkQwa6bzgM";
+		var google_custom_params = window.google_tag_params;
+		var google_remarketing_only = true;
+		/* ]]> */
+		</script>
+		<script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
+		</script>
+		<noscript>
+		<div style="display:inline;">
+		<img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/969332545/?value=0&amp;label=oWCPCNeFwQkQwa6bzgM&amp;guid=ON&amp;script=0"/>
+		</div>
+		</noscript>
+
+	</body>
+</html>
