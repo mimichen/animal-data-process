@@ -1,0 +1,24 @@
+{
+  "name": "animal-data-process",
+  "version": "1.0.0",
+  "description": "fetch and process animal-related webpage",
+  "main": "animal-hell-place-fetcher.js",
+  "dependencies": {
+    "async": "^2.0.1",
+    "node-fetch": "^1.6.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mimichen/animal-data-process.git"
+  },
+  "author": "mimichen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mimichen/animal-data-process/issues"
+  },
+  "homepage": "https://github.com/mimichen/animal-data-process#readme"
+}
